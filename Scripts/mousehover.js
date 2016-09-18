@@ -24,13 +24,17 @@ function passou(eve, bot){
 		var req = window.dicMaterias[bot].requisitos.substr(0, 6);
 		req = req.toLowerCase();
 		
-		document.getElementById(req).style.backgroundColor = "#b3d9ff";
+		document.getElementById(req).style.backgroundColor = "#708090";
+		document.getElementById(req).style.border = "3px solid #708090";
+		document.getElementById(req).style.color = "white";
 		
 		if(window.dicMaterias[bot].requisitos.length > 6){
 			req = window.dicMaterias[bot].requisitos.substr(8, 6);
 			req = req.toLowerCase();
 			
-			document.getElementById(req).style.backgroundColor = "#b3d9ff";
+			document.getElementById(req).style.backgroundColor = "#708090";
+			document.getElementById(req).style.border = "3px solid #708090";
+			document.getElementById(req).style.color = "white";
 		}
 	}
 }
@@ -51,13 +55,17 @@ function saiu(bot){
 		var req = window.dicMaterias[bot].requisitos.substring(0, 6);
 		req = req.toLowerCase();
 		
-		document.getElementById(req).style.backgroundColor = "#009900";
+		document.getElementById(req).style.backgroundColor = "#48D1CC";
+		document.getElementById(req).style.border = "3px solid #48D1CC";
+		document.getElementById(req).style.color = "black";
 		
 		if(window.dicMaterias[bot].requisitos.length > 6){
 			req = window.dicMaterias[bot].requisitos.substring(8);
 			req = req.toLowerCase();
 			
-			document.getElementById(req).style.backgroundColor = "#009900";
+			document.getElementById(req).style.backgroundColor = "#48D1CC";
+			document.getElementById(req).style.border = "3px solid #48D1CC";
+			document.getElementById(req).style.color = "black";
 		}
 	}
 }

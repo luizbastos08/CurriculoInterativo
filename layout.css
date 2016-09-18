@@ -21,10 +21,10 @@ button.mate{
 	outline: none;
 	width:100px;
 	height:50px;
-	background-color: #009900;
+	background-color: #48D1CC;
 	border-width: 3px;
 	border-style: solid;
-	border-color: #009900;
+	border-color: #48D1CC;
     border-radius: 4px;
 	margin: 5px 0px;
 	text-align:center;
@@ -36,22 +36,22 @@ button.travada{
   outline: none;
 	width:100px;
 	height:50px;
-	background-color: #009900;
+	background-color: #48D1CC;
 	border-width: 3px;
 	border-style: solid;
-	border-color: #009900;
+	border-color:#48D1CC;
     border-radius: 4px;
 	margin: 5px 0px;
 	text-align:center;
 	position: absolute;
 	cursor: pointer;
- 	opacity: 0.4;
+ 	opacity: 0.35;
 	filter: alpha(opacity=40);
 }
 
 header{
 	width: 100%;
-	background-color: #28a428;
+	background-color: white;
 	line-height: 50px;
 	color: black;
 	font-size: 1.7em;
