@@ -25,10 +25,12 @@ function clicou(eve, bot){
 				clicou(undefined, tra);
 			}
       
-			document.getElementById(tra).style.border = "3px solid #4169E1";
-			document.getElementById(tra).style.backgroundColor = "#1E90FF";
-			document.getElementById(tra).style.color = "white";
-			window.dicMaterias[tra].estado = "nok";
+			else
+			{
+				document.getElementById(tra).style.border = "3px solid #48D1CC";
+				document.getElementById(tra).style.backgroundColor = "#48D1CC";
+				document.getElementById(tra).style.color = "black";
+			}
 			document.getElementById(tra).className = "travada";
 			document.getElementById(tra).setAttribute("onclick", "");
 		}

@@ -55,17 +55,36 @@ function saiu(bot){
 		var req = window.dicMaterias[bot].requisitos.substring(0, 6);
 		req = req.toLowerCase();
 		
-		document.getElementById(req).style.backgroundColor = "#48D1CC";
-		document.getElementById(req).style.border = "3px solid #48D1CC";
-		document.getElementById(req).style.color = "black";
+		if(window.dicMaterias[req].estado == "nok")
+		{
+			document.getElementById(req).style.backgroundColor = "#48D1CC";
+			document.getElementById(req).style.border = "3px solid #48D1CC";
+			document.getElementById(req).style.color = "black";
+		}
+		else
+		{
+			document.getElementById(req).style.border = "3px solid #4169E1";
+			document.getElementById(req).style.backgroundColor = "#1E90FF";
+			document.getElementById(req).style.color = "white";
+		}
+		
 		
 		if(window.dicMaterias[bot].requisitos.length > 6){
 			req = window.dicMaterias[bot].requisitos.substring(8);
 			req = req.toLowerCase();
 			
-			document.getElementById(req).style.backgroundColor = "#48D1CC";
-			document.getElementById(req).style.border = "3px solid #48D1CC";
-			document.getElementById(req).style.color = "black";
+			if(window.dicMaterias[req].estado == "nok")
+			{
+				document.getElementById(req).style.backgroundColor = "#48D1CC";
+				document.getElementById(req).style.border = "3px solid #48D1CC";
+				document.getElementById(req).style.color = "black";
+			}
+			else
+			{
+				document.getElementById(req).style.border = "3px solid #4169E1";
+				document.getElementById(req).style.backgroundColor = "#1E90FF";
+				document.getElementById(req).style.color = "white";
+			}
 		}
 	}
 }
