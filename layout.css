@@ -21,11 +21,11 @@ button.mate{
 	outline: none;
 	width:90px;
 	height:50px;
-	background-color: #48D1CC;
+	background-color: #4DD0E1;
 	border-width: 3px;
 	border-style: solid;
-	border-color: #48D1CC;
-    border-radius: 30px;
+	border-color: #4DD0E1;
+    	border-radius: 30px;
 	margin: 5px 0px;
 	text-align:center;
 	position: absolute;
@@ -36,10 +36,10 @@ button.travada{
   outline: none;
 	width:90px;
 	height:50px;
-	background-color: #48D1CC;
+	background-color: #4DD0E1;
 	border-width: 3px;
 	border-style: solid;
-	border-color:#48D1CC;
+	border-color:#4DD0E1;
     border-radius: 30px;
 	margin: 5px 0px;
 	text-align:center;
@@ -47,6 +47,21 @@ button.travada{
 	cursor: pointer;
  	opacity: 0.35;
 	filter: alpha(opacity=40);
+}
+
+button.completar{
+	outline: none;
+	width:90px;
+	height:30px;
+	background-color: #CDDC39;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #CDDC39;
+    	border-radius: 50px;
+	margin: 0px 0px;
+	text-align:center;
+	position: absolute;
+	cursor: pointer;
 }
 
 header{
@@ -70,8 +85,8 @@ section{
 	height: 50px;
 	position: relative;
 	left: 1%;
-	margin-top: -10px;
-	/*margin: auto;*/
+	
+	margin: auto;
 	margin-bottom: 10px;
 }
 
@@ -87,150 +102,155 @@ section{
 	left: 5%;
 }
 
-#Periodo1{
-	margin-top: 0%;
-	left: 1%;
+* {
+    box-sizing: border-box;
 }
 
-#dcc003{margin-top: 0px;}
+#Periodo1{
+	margin-left: 100px;
+	
+}
 
-#eee001{margin-top: 80px;}
+#dcc003{margin-top: 50px;}
 
-#eee021{margin-top: 160px;}
+#eee001{margin-top: 130px;}
 
-#fis054{margin-top: 240px;}
+#eee021{margin-top: 210px;}
 
-#mat001{margin-top: 320px;}
+#fis054{margin-top: 290px;}
 
-#mat038{margin-top: 400px;}
+#mat001{margin-top: 370px;}
+
+#mat038{margin-top: 450px;}
 
 
 #Periodo2{
-	margin-top: -6.68%;
-	left: 11%;
+	margin-left: 220px;
+	margin-top: -66px;
+	
 }
 
-#dcc004{margin-top: 0px;}
+#dcc004{margin-top: 50px;}
 
-#dcc033{margin-top: 80px;}
+#dcc033{margin-top: 130px;}
 
-#fch001{margin-top: 160px;}
+#fch001{margin-top: 210px;}
 
-#fis060{margin-top: 240px;}
+#fis060{margin-top: 290px;}
 
-#fis065{margin-top: 320px;}
+#fis065{margin-top: 370px;}
 
-#fis066{margin-top: 400px;}
+#fis066{margin-top: 450px;}
 
-#mat039{margin-top: 480px;}
+#mat039{margin-top: 530px;}
 
 #Periodo3{
-	margin-top: -6.08%;
-	left: 21%;
+	margin-left: 340px;
+	margin-top: -60px;
 }
 
-#ele064{margin-top: 0px;}
+#ele064{margin-top: 50px;}
 
-#elt083{margin-top: 80px;}
+#elt083{margin-top: 130px;}
 
-#eqm044{margin-top: 160px;}
+#eqm044{margin-top: 210px;}
 
-#fis069{margin-top: 240px;}
+#fis069{margin-top: 290px;}
 
-#mat002{margin-top: 320px;}
+#mat002{margin-top: 370px;}
 
-#mat015{margin-top: 400px;}
+#mat015{margin-top: 450px;}
 
 #Periodo4{
-	margin-top: -5.98%;
-	left: 31%;
+	margin-left: 460px;
+	margin-top: -60px;
 }
 
-#ele028{margin-top: 0px;}
+#ele028{margin-top: 50px;}
 
-#ele065{margin-top: 80px;}
+#ele065{margin-top: 130px;}
 
-#elt029{margin-top: 160px;}
+#elt029{margin-top: 210px;}
 
-#elt088{margin-top: 240px;}
+#elt088{margin-top: 290px;}
 
-#est045{margin-top: 320px;}
+#est045{margin-top: 370px;}
 
-#fis086{margin-top: 400px;}
+#fis086{margin-top: 450px;}
 
-#mat016{margin-top: 480px;}
+#mat016{margin-top: 530px;}
 
 #Periodo5{
-	margin-top: -5.98%;
-	left: 41%;
+	margin-left: 580px;
+	margin-top: -60px;
 }
 
-#ele001{margin-top: 0px;}
+#ele001{margin-top: 50px;}
 
-#ele031{margin-top: 80px;}
+#ele031{margin-top: 130px;}
 
-#ele066{margin-top: 160px;}
+#ele066{margin-top: 210px;}
 
-#elt005{margin-top: 240px;}
+#elt005{margin-top: 290px;}
 
-#elt035{margin-top: 320px;}
+#elt035{margin-top: 370px;}
 
-#elt084{margin-top: 400px;}
+#elt084{margin-top: 450px;}
 
-#fis088{margin-top: 480px;}
+#fis088{margin-top: 530px;}
 
 #Periodo6{
-	margin-top: -5.98%;
-	left: 51%;
+	margin-left: 700px;
+	margin-top: -60px;
 }
 
-#ele029{margin-top: 0px;}
+#ele029{margin-top: 50px;}
 
-#ele032{margin-top: 80px;}
+#ele032{margin-top: 130px;}
 
-#ele033{margin-top: 160px;}
+#ele033{margin-top: 210px;}
 
-#ele034{margin-top: 240px;}
+#ele034{margin-top: 290px;}
 
-#elt085{margin-top: 320px;}
+#elt085{margin-top: 370px;}
 
-#elt086{margin-top: 400px;}
+#elt086{margin-top: 450px;}
 
-#elt089{margin-top: 480px;}
+#elt089{margin-top: 530px;}
 
 #Periodo7{
-	margin-top: -5.98%;
-	left: 61%;
+	margin-left: 820px;
+	margin-top: -60px;
 }
 
-#ele035{margin-top: 0px;}
+#ele035{margin-top: 50px;}
 
-#ele042{margin-top: 80px;}
+#ele042{margin-top: 130px;}
 
-#elt087{margin-top: 160px;}
+#elt087{margin-top: 210px;}
 
-#elt090{margin-top: 240px;}
+#elt090{margin-top: 290px;}
 
 #Periodo8{
-	margin-top: -5.98%;
-	left: 71%;
+	margin-left: 940px;
+	margin-top: -60px;
 }
 
-#fch002{margin-top: 0px;}
+#fch002{margin-top: 50px;}
 
 #Periodo9{
-	margin-top: -5.98%;
-	left: 81%;
+	margin-left: 1060px;
+	margin-top: -60px;
 }
 
-#eee022{margin-top: 0px;}
+#eee022{margin-top: 50px;}
 
 #Periodo10{
-	margin-top: -5.98%;
-	left: 91%;
+	margin-left: 1180px;
+	margin-top: -60px;
 }
 
-#eee023{margin-top: 0px;}
+#eee023{margin-top: 50px;}
 
 /*#Periodo1{
 	background-color: white;
@@ -424,7 +444,7 @@ section{
     	padding-left: 40px;
 	color: black;
 	font-size: 1.25em;
-	margin-top: 60%;
+	margin-top: 50%;
 	position: relative;
 	left: 5%;
 }

@@ -57,14 +57,14 @@ function saiu(bot){
 		
 		if(window.dicMaterias[req].estado == "nok")
 		{
-			document.getElementById(req).style.backgroundColor = "#48D1CC";
-			document.getElementById(req).style.border = "3px solid #48D1CC";
+			document.getElementById(req).style.backgroundColor = "#4DD0E1";
+			document.getElementById(req).style.border = "3px solid #4DD0E1";
 			document.getElementById(req).style.color = "black";
 		}
 		else
 		{
-			document.getElementById(req).style.border = "3px solid #4169E1";
-			document.getElementById(req).style.backgroundColor = "#1E90FF";
+			document.getElementById(req).style.border = "3px solid #1E88E5";
+			document.getElementById(req).style.backgroundColor = "#1E88E5";
 			document.getElementById(req).style.color = "white";
 		}
 		
@@ -81,8 +81,8 @@ function saiu(bot){
 			}
 			else
 			{
-				document.getElementById(req).style.border = "3px solid #4169E1";
-				document.getElementById(req).style.backgroundColor = "#1E90FF";
+				document.getElementById(req).style.border = "3px solid #1E88E5";
+				document.getElementById(req).style.backgroundColor = "#1E88E5";
 				document.getElementById(req).style.color = "white";
 			}
 		}

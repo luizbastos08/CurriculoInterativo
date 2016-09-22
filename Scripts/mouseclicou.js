@@ -2,16 +2,16 @@ function clicou(eve, bot){
 	var qual = window.dicMaterias[bot].estado;
   
 	if(qual == "nok"){
-		document.getElementById(bot).style.border = "3px solid #4169E1";
-		document.getElementById(bot).style.backgroundColor = "#1E90FF";
+		document.getElementById(bot).style.border = "3px solid #1E88E5";
+		document.getElementById(bot).style.backgroundColor = "#1E88E5";
 		document.getElementById(bot).style.color = "white";
 		window.dicMaterias[bot].estado = "ok";
     
 		destrava(bot);
 	}
 	else if(qual == "ok"){
-		document.getElementById(bot).style.border = "3px solid #48D1CC";
-		document.getElementById(bot).style.backgroundColor = "#48D1CC";
+		document.getElementById(bot).style.border = "3px solid #4DD0E1";
+		document.getElementById(bot).style.backgroundColor = "#4DD0E1";
 		document.getElementById(bot).style.color = "black";
 		window.dicMaterias[bot].estado = "nok";
     
@@ -27,8 +27,8 @@ function clicou(eve, bot){
       
 			else
 			{
-				document.getElementById(tra).style.border = "3px solid #48D1CC";
-				document.getElementById(tra).style.backgroundColor = "#48D1CC";
+				document.getElementById(tra).style.border = "3px solid #4DD0E1";
+				document.getElementById(tra).style.backgroundColor = "#4DD0E1";
 				document.getElementById(tra).style.color = "black";
 			}
 			document.getElementById(tra).className = "travada";
