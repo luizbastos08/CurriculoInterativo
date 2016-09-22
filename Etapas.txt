@@ -1,4 +1,6 @@
-1. bot„o de preencher perÌodo
+Site upado para testes em: http://cora.cpdee.ufmg.br/Teste/arvore.htm
+
+1. bot√£o de preencher per√≠odo
 2. cookies para salvar o trabalho feito
 3. layout
 4. website responsivo
