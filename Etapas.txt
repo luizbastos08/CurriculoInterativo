@@ -1,6 +1,6 @@
-Site upado para testes em: http://cora.cpdee.ufmg.br/Teste/arvore.htm
+﻿Site upado para testes em: http://cora.cpdee.ufmg.br/Teste/arvore.htm
 
 1. botão de preencher período
-2. cookies para salvar o trabalho feito
+2. cookies para salvar o trabalho feito (done)
 3. layout
 4. website responsivo

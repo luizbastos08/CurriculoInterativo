@@ -39,3 +39,26 @@ function clicou(eve, bot){
 		window.alert("Erro #2199 - Problemas no banco de dados.");
 	}
 }
+
+function complete(eve, bot){
+	var tra = window.dicPeriodos[bot].trava.substr();
+	tra = tra.toLowerCase();
+
+	var num = Math.trunc(window.dicPeriodos[bot].materias.length / 6);
+	for(var i = 0; i < num; i++){
+
+		var comp = window.dicPeriodos[bot].materias.substr(i*6+i, 6);
+		comp= comp.toLowerCase();
+
+		clicou(undefined ,comp);
+		document.getElementById(comp).style.opacity = 1;
+
+	}
+	
+	
+	document.getElementById(bot).className = "completarMate";
+	document.getElementById(bot).setAttribute("onclick", "complete(event, this.id)");
+	document.getElementById(tra).className = "completarMate";
+	document.getElementById(tra).setAttribute("onclick", "complete(event, this.id)");
+
+}

@@ -47,3 +47,16 @@ var dicMaterias = {
 	eee022:{estado:"nok", nome:"EEE022-Gestão de Projetos Tecnológicos (2 Créditos)<BR>", requisitos:"", ementa:"Preparação do trabalho final de curso. Realização de projeto de engenharia. Metodologias de elaboração e gerenciamento de projetos. Elaboração de relatórios e artigos técnicos e de monografias.", trava:"EEE023"},
 	eee023:{estado:"nok", nome:"EEE023-Trabalho de Conclusão de Curso (4 Créditos)<BR>", requisitos:"EEE022", ementa:"Realização do Trabalho de Conclusão de Curso. Conteúdo variável.", trava:""}
 };
+
+var dicPeriodos = {
+	p1:{materias:"dcc003,eee001,eee021,fis054,mat001,mat038", trava:"p2"},
+	p2:{materias:"dcc004,dcc033,fch001,fis060,fis065,fis066,mat039", trava: "p3"},
+	p3:{materias:"ele064,elt083,eqm044,fis069,mat002,mat015", trava: "p4"},
+	p4:{materias:"ele028,ele065,elt029,elt088,est045,fis086,mat016", trava: "p5"},
+	p5:{materias:"ele001,ele031,ele066,elt005,elt035,elt084,fis088", trava: "p6"},
+	p6:{materias:"ele029,ele032,ele033,ele034,elt085,elt086,elt089", trava: "p7"},
+	p7:{materias:"ele035,ele042,elt087,elt090", trava: "p8"},
+	p8:{materias:"fch002", trava: "p9"},
+	p9:{materias:"eee022", trava: "p10"},
+	p10:{materias:"eee023"}
+}
