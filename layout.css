@@ -17,7 +17,7 @@
 	cursor: pointer;
 }
 
-button.mate{
+/* button.mate{
 	outline: none;
 	width:90px;
 	height:50px;
@@ -31,9 +31,9 @@ button.mate{
 	position: absolute;
 	cursor: pointer;
 }
-
-button.travada{
-  outline: none;
+ */
+/* button.travada{
+	outline: none;
 	width:90px;
 	height:50px;
 	background-color: #4DD0E1;
@@ -47,9 +47,9 @@ button.travada{
 	cursor: pointer;
  	opacity: 0.35;
 	filter: alpha(opacity=40);
-}
+} */
 
-button.completarMate{
+/* button.completarMate{
 	outline: none;
 	width:90px;
 	height:30px;
@@ -62,6 +62,37 @@ button.completarMate{
 	text-align:center;
 	position: absolute;
 	cursor: pointer;
+} */
+
+/* button.completarTravada{
+	outline: none;
+	width:90px;
+	height:30px;
+	background-color: #CDDC39;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #CDDC39;
+    	border-radius: 50px;
+	margin: 0px 0px;
+	text-align:center;
+	position: absolute;
+	cursor: pointer;
+	opacity: 0.35;
+	filter: alpha(opacity=40);
+} */
+
+.mdl-button--colored{
+	white-space: wrap;
+	width: 118px;
+	height: 100px;
+	font-size: calc(4vw + 4vh + 2vmin);
+}
+
+.mdl-button--accent{
+	white-space: wrap;
+	width: 118px;
+	height: 50px;
+	font-size: calc(4vw + 4vh + 2vmin);
 }
 
 button.completarTravada{
@@ -94,9 +125,6 @@ header{
 }
 
 section{
-	
-
-
 	background-color: white;
 	width: 100%;
 	height: 50px;
@@ -125,145 +153,153 @@ section{
 
 #Periodo1{
 	margin-left: 100px;
-	
+	width: 118px;
 }
 
 #dcc003{margin-top: 50px;}
 
-#eee001{margin-top: 130px;}
+#eee001{margin-top: 50px;}
 
-#eee021{margin-top: 210px;}
+#eee021{margin-top: 50px;}
 
-#fis054{margin-top: 290px;}
+#fis054{margin-top: 50px;}
 
-#mat001{margin-top: 370px;}
+#mat001{margin-top: 50px;}
 
-#mat038{margin-top: 450px;}
+#mat038{margin-top: 50px;}
 
 
 #Periodo2{
-	margin-left: 220px;
-	margin-top: -66px;
-	
+	margin-left: 250px;
+	width: 118px;
+	margin-top: -60px;
 }
 
 #dcc004{margin-top: 50px;}
 
-#dcc033{margin-top: 130px;}
+#dcc033{margin-top: 50px;}
 
-#fch001{margin-top: 210px;}
+#fch001{margin-top: 50px;}
 
-#fis060{margin-top: 290px;}
+#fis060{margin-top: 50px;}
 
-#fis065{margin-top: 370px;}
+#fis065{margin-top: 50px;}
 
-#fis066{margin-top: 450px;}
+#fis066{margin-top: 50px;}
 
-#mat039{margin-top: 530px;}
+#mat039{margin-top: 50px;}
 
 #Periodo3{
-	margin-left: 340px;
+	margin-left: 400px;
+	width: 118px;
 	margin-top: -60px;
 }
 
 #ele064{margin-top: 50px;}
 
-#elt083{margin-top: 130px;}
+#elt083{margin-top: 50px;}
 
-#eqm044{margin-top: 210px;}
+#eqm044{margin-top: 50px;}
 
-#fis069{margin-top: 290px;}
+#fis069{margin-top: 50px;}
 
-#mat002{margin-top: 370px;}
+#mat002{margin-top: 50px;}
 
-#mat015{margin-top: 450px;}
+#mat015{margin-top: 50px;}
 
 #Periodo4{
-	margin-left: 460px;
+	margin-left: 550px;
+	width: 118px;
 	margin-top: -60px;
 }
 
 #ele028{margin-top: 50px;}
 
-#ele065{margin-top: 130px;}
+#ele065{margin-top: 50px;}
 
-#elt029{margin-top: 210px;}
+#elt029{margin-top: 50px;}
 
-#elt088{margin-top: 290px;}
+#elt088{margin-top: 50px;}
 
-#est045{margin-top: 370px;}
+#est045{margin-top: 50px;}
 
-#fis086{margin-top: 450px;}
+#fis086{margin-top: 50px;}
 
-#mat016{margin-top: 530px;}
+#mat016{margin-top: 50px;}
 
 #Periodo5{
-	margin-left: 580px;
+	margin-left: 700px;
+	width: 118px;
 	margin-top: -60px;
 }
 
 #ele001{margin-top: 50px;}
 
-#ele031{margin-top: 130px;}
+#ele031{margin-top: 50px;}
 
-#ele066{margin-top: 210px;}
+#ele066{margin-top: 50px;}
 
-#elt005{margin-top: 290px;}
+#elt005{margin-top: 50px;}
 
-#elt035{margin-top: 370px;}
+#elt035{margin-top: 50px;}
 
-#elt084{margin-top: 450px;}
+#elt084{margin-top: 50px;}
 
-#fis088{margin-top: 530px;}
+#fis088{margin-top: 50px;}
 
 #Periodo6{
-	margin-left: 700px;
+	margin-left: 850px;
+	width: 118px;
 	margin-top: -60px;
 }
 
 #ele029{margin-top: 50px;}
 
-#ele032{margin-top: 130px;}
+#ele032{margin-top: 50px;}
 
-#ele033{margin-top: 210px;}
+#ele033{margin-top: 50px;}
 
-#ele034{margin-top: 290px;}
+#ele034{margin-top: 50px;}
 
-#elt085{margin-top: 370px;}
+#elt085{margin-top: 50px;}
 
-#elt086{margin-top: 450px;}
+#elt086{margin-top: 50px;}
 
-#elt089{margin-top: 530px;}
+#elt089{margin-top: 50px;}
 
 #Periodo7{
-	margin-left: 820px;
+	margin-left: 1000px;
+	width: 118px;
 	margin-top: -60px;
 }
 
 #ele035{margin-top: 50px;}
 
-#ele042{margin-top: 130px;}
+#ele042{margin-top: 50px;}
 
-#elt087{margin-top: 210px;}
+#elt087{margin-top: 50px;}
 
-#elt090{margin-top: 290px;}
+#elt090{margin-top: 50px;}
 
 #Periodo8{
-	margin-left: 940px;
+	margin-left: 1150px;
+	width: 118px;
 	margin-top: -60px;
 }
 
 #fch002{margin-top: 50px;}
 
 #Periodo9{
-	margin-left: 1060px;
+	margin-left: 1300px;
+	width: 118px;
 	margin-top: -60px;
 }
 
 #eee022{margin-top: 50px;}
 
 #Periodo10{
-	margin-left: 1180px;
+	margin-left: 1450px;
+	width: 118px;
 	margin-top: -60px;
 }
 
@@ -452,16 +488,3 @@ section{
 }
 
 #eee023{left: 100px;}*/
-
-#certificados{
-	background-color: white;
-	background-image: url('Midia/icoraio.png');
-    	background-position: 10px 2px; 
-    	background-repeat: no-repeat;
-    	padding-left: 40px;
-	color: black;
-	font-size: 1.25em;
-	margin-top: 50%;
-	position: relative;
-	left: 5%;
-}

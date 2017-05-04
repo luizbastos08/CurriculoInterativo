@@ -2,17 +2,19 @@ function clicou(eve, bot){
 	var qual = window.dicMaterias[bot].estado;
   
 	if(qual == "nok"){
-		document.getElementById(bot).style.border = "3px solid #1E88E5";
+		document.getElementById(bot).className = "mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent";
+/* 		document.getElementById(bot).style.border = "3px solid #1E88E5";
 		document.getElementById(bot).style.backgroundColor = "#1E88E5";
-		document.getElementById(bot).style.color = "white";
+		document.getElementById(bot).style.color = "white"; */
 		window.dicMaterias[bot].estado = "ok";
     
 		destrava(bot);
 	}
 	else if(qual == "ok"){
-		document.getElementById(bot).style.border = "3px solid #4DD0E1";
+		document.getElementById(bot).className = "mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored";
+/* 		document.getElementById(bot).style.border = "3px solid #4DD0E1";
 		document.getElementById(bot).style.backgroundColor = "#4DD0E1";
-		document.getElementById(bot).style.color = "black";
+		document.getElementById(bot).style.color = "black"; */
 		window.dicMaterias[bot].estado = "nok";
     
 		var num = Math.trunc(window.dicMaterias[bot].trava.length / 6);
@@ -27,11 +29,14 @@ function clicou(eve, bot){
       
 			else
 			{
-				document.getElementById(tra).style.border = "3px solid #4DD0E1";
+				document.getElementById(tra).className = "mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored";
+/* 				document.getElementById(tra).style.border = "3px solid #4DD0E1";
 				document.getElementById(tra).style.backgroundColor = "#4DD0E1";
-				document.getElementById(tra).style.color = "black";
+				document.getElementById(tra).style.color = "black"; */
 			}
-			document.getElementById(tra).className = "travada";
+			document.getElementById(tra).className = "mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored";
+			document.getElementById(tra).style.opacity = 0.35;
+			/* document.getElementById(tra).className = "travada"; */
 			document.getElementById(tra).setAttribute("onclick", "");
 		}
 	}
@@ -48,17 +53,11 @@ function complete(eve, bot){
 	for(var i = 0; i < num; i++){
 
 		var comp = window.dicPeriodos[bot].materias.substr(i*6+i, 6);
-		comp= comp.toLowerCase();
+		comp = comp.toLowerCase();
 
-		clicou(undefined ,comp);
-		document.getElementById(comp).style.opacity = 1;
-
+		window.dicMaterias[comp].estado = "nok";
+		clicou(undefined, comp);
 	}
-	
-	
-	document.getElementById(bot).className = "completarMate";
-	document.getElementById(bot).setAttribute("onclick", "complete(event, this.id)");
-	document.getElementById(tra).className = "completarMate";
 	document.getElementById(tra).setAttribute("onclick", "complete(event, this.id)");
 
 }
