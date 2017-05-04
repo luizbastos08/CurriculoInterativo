@@ -95,6 +95,23 @@
 	font-size: calc(4vw + 4vh + 2vmin);
 }
 
+button.completarTravada{
+	outline: none;
+	width:90px;
+	height:30px;
+	background-color: #CDDC39;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #CDDC39;
+    	border-radius: 50px;
+	margin: 0px 0px;
+	text-align:center;
+	position: absolute;
+	cursor: pointer;
+	opacity: 0.35;
+	filter: alpha(opacity=40);
+}
+
 header{
 	width: 100%;
 	background-color: white;
